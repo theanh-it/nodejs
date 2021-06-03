@@ -1,0 +1,23 @@
+{
+    "debug": true,
+    "server":{
+        "port": 5001
+    },
+    "db":{
+        "host"                  : "localhost",
+        "user"                  : "root",
+        "password"              : "",
+        "database"              : "",
+        "multipleStatements"    : false,
+        "charset"               : "utf8mb4"
+    },
+    "cors":{
+        "http://localhost:8080": true
+    },
+    "login":{
+        "google":{
+            "clientId": "",
+            "clientSecret": ""
+        }
+    }   
+}
